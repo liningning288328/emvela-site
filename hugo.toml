@@ -1,0 +1,69 @@
+# ===================================================================
+# Emvela — 站点配置
+# 品牌定案：Emvela（2026-09-18 · 任务 5.3 选定）
+# 域名：emvela.com（2026-09-18 注册 / 注册商 Xin Net 新网）
+#   ⚠️ 当前注册局状态 = serverHold（未完成实名认证），解析不生效。
+#   实名通过后需把 NS 切到 Cloudflare Pages，再重新构建部署。
+# ===================================================================
+
+baseURL = "https://emvela.com/"
+title = "Emvela"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableGitInfo = false
+disableKinds = ["taxonomy", "term"]
+
+# 生成干净的 URL：/articles/xxx/ 而不是 /articles/xxx.html
+# 用 :contentbasename（即 .md 文件名）而不是 :slug —— Hugo 的 :slug 默认取 title，
+# 会把长标题整个塞进 URL。
+[permalinks]
+  articles = "/articles/:contentbasename/"
+
+[params]
+  description = "Independent guides to body-safe materials, discreet delivery and everyday wellness care."
+  tagline = "Practical, evidence-led guidance for everyday wellness."
+  author = "Emvela Editorial"
+  contactEmail = "hello@emvela.com"   # 待 1.4 公司邮箱就绪后启用（需先解除 serverHold 才能配 MX）
+  # 面向搜索引擎
+  ogLocale = "en_US"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+  [markup.highlight]
+    noClasses = false
+
+# 站点菜单
+[[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+[[menus.main]]
+  name = "Articles"
+  pageRef = "/articles"
+  weight = 20
+[[menus.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 30
+[[menus.main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 40
+
+# 合规页面不进主导航，但必须在页面底部可达（支付通道与平台审核会看）
+[[menus.footer]]
+  name = "Privacy Policy"
+  pageRef = "/privacy"
+  weight = 10
+[[menus.footer]]
+  name = "Terms of Service"
+  pageRef = "/terms"
+  weight = 20
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
