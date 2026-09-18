@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+  <article>
+    {{- with .Section }}<span class="pill">{{ . | humanize }}</span>{{ end }}
+    <h1>{{ .Title }}</h1>
+    <p class="meta">
+      {{ .Date.Format "January 2, 2006" }}
+      · {{ .ReadingTime }} min read
+      {{- with .Params.author }} · {{ . }}{{ else }} · {{ site.Params.author }}{{ end }}
+    </p>
+
+    {{ .Content }}
+  </article>
+
+  <div class="cta">
+    <h3>About this site</h3>
+    <p style="margin-bottom:0">{{ site.Title }} publishes general lifestyle and wellness
+      information for adults. Our editorial standards, sourcing approach and correction
+      policy are described on the <a href="{{ "about/" | relLangURL }}">About</a> page.
+      Seen something that needs fixing? <a href="{{ "contact/" | relLangURL }}">Tell us</a>.</p>
+  </div>
+
+  {{- $related := where (where site.RegularPages "Section" "articles") "Permalink" "ne" .Permalink }}
+  {{- with first 3 $related.ByDate.Reverse }}
+  <h2>Keep reading</h2>
+  <ul class="card-list">
+    {{- range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <p>{{ .Summary | plainify | truncate 140 }}</p>
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+
+{{ end }}
