@@ -1,0 +1,10 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{- $width := .Get "width" | default "680" -}}
+{{- $height := .Get "height" | default "340" -}}
+{{- $loading := .Get "loading" | default "lazy" -}}
+<figure class="infographic-figure">
+  <img src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}" loading="{{ $loading }}">
+  {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

@@ -2,8 +2,7 @@
 # Emvela — 站点配置
 # 品牌定案：Emvela（2026-09-18 · 任务 5.3 选定）
 # 域名：emvela.com（2026-09-18 注册 / 注册商 Xin Net 新网）
-#   ⚠️ 当前注册局状态 = serverHold（未完成实名认证），解析不生效。
-#   实名通过后需把 NS 切到 Cloudflare Pages，再重新构建部署。
+#   ✅ 注册局状态 = ok（serverHold 已解除，NS 已切 Cloudflare，站点已上线）
 # ===================================================================
 
 baseURL = "https://emvela.com/"
@@ -24,9 +23,11 @@ disableKinds = ["taxonomy", "term"]
   description = "Independent guides to body-safe materials, discreet delivery and everyday wellness care."
   tagline = "Practical, evidence-led guidance for everyday wellness."
   author = "Emvela Editorial"
-  contactEmail = "hello@emvela.com"   # 待 1.4 公司邮箱就绪后启用（需先解除 serverHold 才能配 MX）
+  contactEmail = "hello@emvela.com"   # 待 1.4 公司邮箱就绪后启用（NS 已在 Cloudflare，随时可配 MX）
   # 面向搜索引擎
   ogLocale = "en_US"
+  # 默认 OG 卡片（站点首页 / 无 per-page 图的文章页回退）
+  defaultOgImage = "/images/og/default.png"
 
 [markup]
   [markup.goldmark]

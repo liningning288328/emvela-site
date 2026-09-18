@@ -1,6 +1,15 @@
 {{- $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) -}}
 {{- $desc := .Description | default .Summary | default site.Params.description -}}
 {{- $desc = $desc | plainify | truncate 158 -}}
+{{- $ogImage := "" -}}
+{{- $ogImageAlt := "" -}}
+{{- with .Params.image -}}
+  {{- $ogImage = . | absURL -}}
+  {{- $ogImageAlt = $.Params.imageAlt | default $.Title -}}
+{{- else -}}
+  {{- $ogImage = site.Params.defaultOgImage | absURL -}}
+  {{- $ogImageAlt = site.Title -}}
+{{- end -}}
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,14 +24,21 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:locale" content="{{ site.Params.ogLocale | default "en_US" }}">
+<meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ $ogImageAlt }}">
+<meta property="og:image:type" content="image/png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $ogImage }}">
+<meta name="twitter:image:alt" content="{{ $ogImageAlt }}">
 
 {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
 
 {{ if .IsPage }}<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":{{ .Title | jsonify }},"description":{{ $desc | jsonify }},"datePublished":{{ .Date.Format "2006-01-02" | jsonify }},"dateModified":{{ .Lastmod.Format "2006-01-02" | jsonify }},"author":{"@type":"Organization","name":{{ site.Params.author | jsonify }}},"publisher":{"@type":"Organization","name":{{ site.Title | jsonify }}},"mainEntityOfPage":{"@type":"WebPage","@id":{{ .Permalink | jsonify }}}}
+{"@context":"https://schema.org","@type":"Article","headline":{{ .Title | jsonify }},"description":{{ $desc | jsonify }},"datePublished":{{ .Date.Format "2006-01-02" | jsonify }},"dateModified":{{ .Lastmod.Format "2006-01-02" | jsonify }},"author":{"@type":"Organization","name":{{ site.Params.author | jsonify }}},"publisher":{"@type":"Organization","name":{{ site.Title | jsonify }}},"mainEntityOfPage":{"@type":"WebPage","@id":{{ .Permalink | jsonify }}},"image":{"@type":"ImageObject","url":{{ $ogImage | jsonify }},"width":1200,"height":630}}
 </script>{{ end }}
 
 <style>
@@ -75,11 +91,16 @@ blockquote{margin:0 0 18px;padding:2px 0 2px 16px;border-left:3px solid var(--ac
 .site-foot nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:10px}
 .site-foot nav a{font-size:13px;color:var(--ink-soft);border:0}
 .disclaimer{font-size:13px;color:var(--ink-faint);border-top:1px solid var(--line);padding-top:16px;margin-top:22px}
+figure{margin:34px 0;padding:0}
+figure img{display:block;width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line)}
+figcaption{font-size:13px;color:var(--ink-faint);margin-top:10px;text-align:center}
+.article-thumb{width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line);background:var(--bg-soft);margin-bottom:12px}
 @media (max-width:560px){
   body{font-size:16px}
   h1{font-size:26px}
   .hero{padding-top:0}
   main{padding-top:32px}
+  figure{margin:26px 0}
 }
 </style>
 </head>

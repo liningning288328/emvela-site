@@ -3,6 +3,8 @@ title: "Stress, Sleep and Desire: The Connection Most People Notice Before Anyon
 description: "The relationship between chronic stress, poor sleep and low desire is well documented. Here is what the research actually shows, and which interventions have the best evidence behind them."
 date: 2026-09-02
 author: "Emvela Editorial"
+image: "/images/og/stress-sleep-and-desire.png"
+imageAlt: "Evidence-based interventions for stress, sleep and desire"
 ---
 
 People usually arrive at this subject the long way round. Something has changed,
@@ -89,6 +91,8 @@ Worth stating plainly, because this category is commercially noisy:
 
 ## A realistic sequence
 
+{{< figure-infographic src="/images/infographics/stress-evidence-landscape.svg" alt="Two-column comparison of interventions with strong versus weak evidence" caption="The evidence landscape" width="680" height="460" loading="lazy" >}}
+
 If you want an order of operations, this is a defensible one:
 
 1. **Two weeks.** Fixed sleep window, no alcohol, morning daylight. Track only
@@ -99,6 +103,8 @@ If you want an order of operations, this is a defensible one:
    Persistent change in desire or function can be an early marker for
    cardiovascular, endocrine or mood conditions, and is worth investigating on
    its own merits.
+
+{{< figure-infographic src="/images/infographics/stress-realistic-sequence.svg" alt="Three-step escalation for sleep, stress and desire interventions" caption="A realistic intervention sequence" width="680" height="280" loading="lazy" >}}
 
 That last point is the one we would most want someone to take away. This is
 frequently a signal rather than a problem in itself, which is why it deserves a

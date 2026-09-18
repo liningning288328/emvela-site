@@ -3,6 +3,8 @@ title: "Discreet Delivery, Explained: What Actually Appears on the Box and the S
 description: "A plain description of how discreet shipping works in practice — packaging, sender names, bank statement descriptors, customs paperwork and the situations where discretion genuinely breaks down."
 date: 2026-09-08
 author: "Emvela Editorial"
+image: "/images/og/discreet-delivery-explained.png"
+imageAlt: "What actually appears on a discreet delivery box, label and bank statement"
 ---
 
 "Discreet delivery" is one of the most common phrases on a product listing and
@@ -11,6 +13,8 @@ legal requirement, and the difference matters if discretion is the reason you ar
 buying online rather than in person.
 
 Here is what the term actually covers, in the order things happen.
+
+{{< figure-infographic src="/images/infographics/discreet-four-elements.svg" alt="Four characteristics of genuinely discreet shipping" caption="What discreet actually means" width="680" height="260" loading="eager" >}}
 
 ## What "discreet" usually means
 
@@ -67,8 +71,10 @@ Two things do go wrong internationally:
 - **The parcel may be opened.** Customs authorities in most jurisdictions may
   inspect any shipment. That is outside the retailer's control.
 - **Duty may be charged.** If it is, the carrier invoices you, sometimes by post
-  weeks later. That correspondence will be more descriptive than the original
-  packaging.
+weeks later. That correspondence will be more descriptive than the original
+packaging.
+
+{{< figure-infographic src="/images/infographics/discreet-delivery-trail.svg" alt="Where discretion breaks down along the delivery trail from order to doorstep" caption="Where discretion breaks down" width="680" height="320" loading="lazy" >}}
 
 ## The honest limits
 

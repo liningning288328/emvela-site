@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" width="100%" role="img">
+<title>What the evidence supports versus what it does not</title>
+<desc>A two-column comparison of interventions with strong evidence versus commercially noisy claims with weak support.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<text x="40" y="32" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">The evidence landscape</text>
+<rect x="40" y="50" width="600" height="390" rx="12" fill="#ffffff" stroke="#e2e8e6" stroke-width="0.5"/>
+<rect x="40" y="50" width="300" height="40" rx="0" fill="#1f5a4c"/>
+<text x="190" y="70" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">What the evidence supports</text>
+<rect x="340" y="50" width="300" height="40" rx="0" fill="#b42318"/>
+<text x="490" y="70" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">What the evidence does not support</text>
+<circle cx="72" cy="108" r="10" fill="#2f7d6b"/>
+<text x="72" y="108" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="10" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="92" y="108" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Protect sleep duration first</text>
+<circle cx="72" cy="160" r="10" fill="#2f7d6b"/>
+<text x="72" y="160" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="10" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="92" y="160" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Get daylight early + movement</text>
+<circle cx="72" cy="212" r="10" fill="#2f7d6b"/>
+<text x="72" y="212" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="10" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="92" y="212" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Treat alcohol as a disruptor</text>
+<circle cx="72" cy="264" r="10" fill="#2f7d6b"/>
+<text x="72" y="264" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="10" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="92" y="264" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Address stressor or response</text>
+<circle cx="72" cy="316" r="10" fill="#2f7d6b"/>
+<text x="72" y="316" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="10" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="92" y="316" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Blood work if sudden change</text>
+<text x="370" y="108" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="22" font-weight="500" fill="#b42318" text-anchor="start" dominant-baseline="central">·</text>
+<text x="386" y="108" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Over-the-counter testosterone boosters</text>
+<text x="370" y="186" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="22" font-weight="500" fill="#b42318" text-anchor="start" dominant-baseline="central">·</text>
+<text x="386" y="186" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Single supplement without sleep fix</text>
+<text x="370" y="264" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="22" font-weight="500" fill="#b42318" text-anchor="start" dominant-baseline="central">·</text>
+<text x="386" y="264" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Low desire is purely willpower/novelty</text>
+<line x1="340" y1="90" x2="340" y2="420" stroke="#e2e8e6" stroke-width="0.5"/>
+</svg>

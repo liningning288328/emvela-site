@@ -3,6 +3,8 @@ title: "Body-Safe Materials: A Practical Guide to What Your Product Is Actually 
 description: "Silicone, TPE, ABS and glass behave very differently over time. Here is how to read a material label, what to avoid, and how to clean each type without ruining it."
 date: 2026-08-26
 author: "Emvela Editorial"
+image: "/images/og/body-safe-materials-guide.png"
+imageAlt: "Comparison of body-safe materials: silicone, TPE, ABS and glass"
 ---
 
 Most product listings describe material in three words, and two of them are
@@ -14,6 +16,8 @@ The material matters for three practical reasons: what it may release into
 contact with skin, how long it stays intact, and whether you can clean it
 properly. This guide covers the four material families you will actually
 encounter, in the order you are most likely to meet them.
+
+{{< figure-infographic src="/images/infographics/materials-comparison-matrix.svg" alt="Body-safe materials comparison matrix showing porosity, boiling tolerance, cleaning and service life" caption="Body-safe materials at a glance" width="680" height="324" loading="eager" >}}
 
 ## Silicone
 
@@ -100,6 +104,10 @@ underneath.
    surface changes.
 4. **Does it smell strongly out of the box?** A persistent chemical odour is not
    a good sign regardless of what the label claims.
+
+The four checks below are a quick way to apply everything above.
+
+{{< figure-infographic src="/images/infographics/materials-decision-path.svg" alt="Four-step decision path for choosing a body-safe material" caption="The four checks, in order" width="680" height="366" loading="lazy" >}}
 
 ## What we are not going to tell you
 

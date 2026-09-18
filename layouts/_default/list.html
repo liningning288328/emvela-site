@@ -7,6 +7,9 @@
   <ul class="card-list">
     {{- range .Pages.ByDate.Reverse }}
     <li>
+      {{- $img := .Params.image | default site.Params.defaultOgImage -}}
+      {{- $imgAlt := .Params.imageAlt | default .Title -}}
+      <img src="{{ $img }}" alt="{{ $imgAlt }}" class="article-thumb" width="1200" height="630" loading="lazy">
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       <p>{{ .Summary | plainify | truncate 165 }}</p>
       <p class="meta" style="margin-top:8px">{{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read</p>

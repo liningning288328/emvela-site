@@ -3,6 +3,8 @@ title: "Five Communication Habits That Predict Relationship Satisfaction Better 
 description: "Longitudinal research on couples keeps finding the same thing: how partners talk to each other under friction predicts outcomes better than how similar they are. Here are the five observable habits."
 date: 2026-09-11
 author: "Emvela Editorial"
+image: "/images/og/communication-habits-that-predict-satisfaction.png"
+imageAlt: "Five communication habits that predict relationship satisfaction better than compatibility"
 ---
 
 The intuitive model of a good relationship is a compatibility model. You find
@@ -17,6 +19,8 @@ relationships that do not. What differs is how they are conducted.
 Below are five habits that show up repeatedly in that literature. They are
 observable, which is what makes them useful — you can notice yourself doing them,
 or not doing them.
+
+{{< figure-infographic src="/images/infographics/communication-compatibility-vs-interaction.svg" alt="Compatibility versus interaction during disagreement as predictors of relationship outcomes" caption="What predicts relationship outcomes" width="680" height="300" loading="eager" >}}
 
 ## 1. Repair attempts, and whether they are accepted
 
@@ -103,3 +107,5 @@ For everyone else — which is most people, most of the time — the useful take
 is that the list is boring. Repair attempts, complaint instead of criticism,
 turning toward bids, taking a break, restating the other perspective. None of it
 is dramatic, and all of it is observable, which means it is practiceable.
+
+{{< figure-infographic src="/images/infographics/communication-five-habits.svg" alt="Five communication habits that predict relationship satisfaction" caption="Five observable habits during disagreement" width="680" height="420" loading="lazy" >}}

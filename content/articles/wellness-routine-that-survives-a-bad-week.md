@@ -3,6 +3,8 @@ title: "Building a Wellness Routine That Survives a Bad Week"
 description: "Most routines fail because they are designed for the best version of your week. Here is a minimum-viable structure with tiers, so a hard week costs you a level rather than the whole thing."
 date: 2026-09-15
 author: "Emvela Editorial"
+image: "/images/og/wellness-routine-that-survives-a-bad-week.png"
+imageAlt: "A wellness routine with tiers for good, normal and bad weeks"
 ---
 
 Almost everyone can hold a routine together for two weeks. The failure point is
@@ -30,6 +32,8 @@ The common mistake is making Tier 2 aspirational. If Tier 2 is not achievable in
 a normal week, it is Tier 3, and you are running a two-tier system where the
 floor does not exist.
 
+{{< figure-infographic src="/images/infographics/wellness-three-tiers.svg" alt="Three-tier wellness routine with floor, normal week and good week" caption="Build a routine with tiers" width="680" height="360" loading="eager" >}}
+
 ## What belongs in the floor
 
 Tier 1 should consist only of things that are load-bearing for everything else.
@@ -47,6 +51,8 @@ For most people that is a short list:
 
 That is the whole floor. It fits in fifteen minutes and it holds the structure
 together when nothing else happens.
+
+{{< figure-infographic src="/images/infographics/wellness-floor-checklist.svg" alt="Four items that belong in the wellness routine floor" caption="The floor: 15 minutes, non-negotiable" width="680" height="340" loading="lazy" >}}
 
 ## Make the transition explicit
 
