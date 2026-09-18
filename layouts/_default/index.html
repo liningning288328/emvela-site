@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+  <div class="hero">
+    <span class="pill">Independent editorial</span>
+    <h1>{{ site.Params.tagline }}</h1>
+    <p class="lede">{{ site.Params.description }}</p>
+  </div>
+
+  {{ with .Content }}{{ . }}{{ end }}
+
+  <h2>What we cover</h2>
+  <ul>
+    <li><strong>Materials and safety.</strong> What personal wellness products are
+      actually made of, which materials age well, and how to clean and store them.</li>
+    <li><strong>Buying online with confidence.</strong> Plain-English explanations of
+      packaging, delivery and returns, so there are no surprises at checkout.</li>
+    <li><strong>Everyday wellbeing.</strong> Stress, sleep, body confidence and the
+      small habits that hold up over time.</li>
+    <li><strong>Relationships and communication.</strong> Evidence-informed reading on
+      how people talk to each other, and why it matters more than anything else.</li>
+  </ul>
+
+  <div class="cta">
+    <h3>How we work</h3>
+    <p style="margin-bottom:0">Every guide is written by our editorial team and reviewed
+      against published material from manufacturers, standards bodies and peer-reviewed
+      literature. We flag uncertainty rather than smoothing it over. Where we are not
+      confident, we say so.</p>
+  </div>
+
+  <h2>Latest articles</h2>
+  {{ $articles := where site.RegularPages "Section" "articles" }}
+  {{ with $articles.ByDate.Reverse }}
+  <ul class="card-list">
+    {{- range first 6 . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <p>{{ .Summary | plainify | truncate 165 }}</p>
+      <p class="meta" style="margin-top:8px">{{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read</p>
+    </li>
+    {{- end }}
+  </ul>
+  {{ else }}
+  <p>Articles are being prepared.</p>
+  {{ end }}
+
+  <p style="margin-top:30px"><a href="{{ "articles/" | relLangURL }}">Browse all articles &rarr;</a></p>
+
+{{ end }}
