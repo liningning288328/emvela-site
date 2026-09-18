@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 366" width="100%" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 366" width="680" height="366" role="img">
 <title>Material decision path</title>
 <desc>Four sequential checks a reader runs before buying: material named, silicone/glass/steel, TPE/TPR, strong odour.</desc>
 <defs>
@@ -8,35 +8,35 @@
   </marker>
 </defs>
 
-<text x="40" y="26" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">The four checks, in order</text>
+<text x="40" y="26" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">The four checks, in order</text>
 <rect x="40" y="40" width="250" height="54" rx="8" fill="#f6f9f8" stroke="#1f5a4c" stroke-width="0.5"/>
 <circle cx="64" cy="67" r="13" fill="#1f5a4c"/>
-<text x="64" y="67" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">1</text>
-<text x="88" y="58" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">Material named at all?</text>
-<text x="88" y="76" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="11" font-weight="400" fill="#7d8f8c" text-anchor="start" dominant-baseline="central">no material line on the listing</text>
+<text x="64" y="67" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="88" y="58" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">Material named at all?</text>
+<text x="88" y="76" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="11" font-weight="400" fill="#7d8f8c" text-anchor="start" dominant-baseline="central">no material line on the listing</text>
 <line x1="290" y1="67" x2="382" y2="67" stroke="#e2e8e6" stroke-width="0.5" stroke-dasharray="3 3"/>
-<text x="390" y="67" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Treat that as the answer</text>
+<text x="390" y="67" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Treat that as the answer</text>
 <rect x="40" y="124" width="250" height="54" rx="8" fill="#f6f9f8" stroke="#1f5a4c" stroke-width="0.5"/>
 <circle cx="64" cy="151" r="13" fill="#1f5a4c"/>
-<text x="64" y="151" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">2</text>
-<text x="88" y="142" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">Silicone, glass or steel?</text>
-<text x="88" y="160" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="11" font-weight="400" fill="#7d8f8c" text-anchor="start" dominant-baseline="central">lowest-maintenance group</text>
+<text x="64" y="151" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="88" y="142" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">Silicone, glass or steel?</text>
+<text x="88" y="160" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="11" font-weight="400" fill="#7d8f8c" text-anchor="start" dominant-baseline="central">lowest-maintenance group</text>
 <line x1="290" y1="151" x2="382" y2="151" stroke="#e2e8e6" stroke-width="0.5" stroke-dasharray="3 3"/>
-<text x="390" y="151" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Mild soap is enough</text>
+<text x="390" y="151" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="400" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Mild soap is enough</text>
 <rect x="40" y="208" width="250" height="54" rx="8" fill="#f6f9f8" stroke="#1f5a4c" stroke-width="0.5"/>
 <circle cx="64" cy="235" r="13" fill="#1f5a4c"/>
-<text x="64" y="235" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">3</text>
-<text x="88" y="226" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">TPE or TPR?</text>
-<text x="88" y="244" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="11" font-weight="400" fill="#7d8f8c" text-anchor="start" dominant-baseline="central">porous, degrades faster</text>
+<text x="64" y="235" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="88" y="226" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">TPE or TPR?</text>
+<text x="88" y="244" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="11" font-weight="400" fill="#7d8f8c" text-anchor="start" dominant-baseline="central">porous, degrades faster</text>
 <line x1="290" y1="235" x2="382" y2="235" stroke="#e2e8e6" stroke-width="0.5" stroke-dasharray="3 3"/>
-<text x="390" y="235" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#b42318" text-anchor="start" dominant-baseline="central">Wash at once, replace</text>
+<text x="390" y="235" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#b42318" text-anchor="start" dominant-baseline="central">Wash at once, replace</text>
 <rect x="40" y="292" width="250" height="54" rx="8" fill="#f6f9f8" stroke="#1f5a4c" stroke-width="0.5"/>
 <circle cx="64" cy="319" r="13" fill="#1f5a4c"/>
-<text x="64" y="319" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">4</text>
-<text x="88" y="310" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">Strong odour out of box?</text>
-<text x="88" y="328" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="11" font-weight="400" fill="#7d8f8c" text-anchor="start" dominant-baseline="central">persistent chemical smell</text>
+<text x="64" y="319" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="88" y="310" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">Strong odour out of box?</text>
+<text x="88" y="328" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="11" font-weight="400" fill="#7d8f8c" text-anchor="start" dominant-baseline="central">persistent chemical smell</text>
 <line x1="290" y1="319" x2="382" y2="319" stroke="#e2e8e6" stroke-width="0.5" stroke-dasharray="3 3"/>
-<text x="390" y="319" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#b42318" text-anchor="start" dominant-baseline="central">Not a good sign, any label</text>
+<text x="390" y="319" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#b42318" text-anchor="start" dominant-baseline="central">Not a good sign, any label</text>
 <line x1="64" y1="94" x2="64" y2="120" stroke="#1f5a4c" stroke-width="1.5" marker-end="url(#arrow)"/>
 <line x1="64" y1="178" x2="64" y2="204" stroke="#1f5a4c" stroke-width="1.5" marker-end="url(#arrow)"/>
 <line x1="64" y1="262" x2="64" y2="288" stroke="#1f5a4c" stroke-width="1.5" marker-end="url(#arrow)"/>

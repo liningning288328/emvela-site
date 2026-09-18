@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="100%" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420" role="img">
 <title>Five communication habits that predict satisfaction</title>
 <desc>A self-checklist of observable habits during disagreement, based on longitudinal couple research.</desc>
 <defs>
@@ -8,20 +8,20 @@
   </marker>
 </defs>
 
-<text x="40" y="28" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Five observable habits during disagreement</text>
+<text x="40" y="28" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">Five observable habits during disagreement</text>
 <rect x="40" y="54" width="600" height="64" rx="8" fill="#f6f9f8" stroke="#e2e8e6" stroke-width="0.5"/>
-<text x="58" y="76" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">1. Repair attempts land</text>
-<text x="58" y="98" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">When tension rises, does anyone try to lower it, and does the other let them?</text>
+<text x="58" y="76" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">1. Repair attempts land</text>
+<text x="58" y="98" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">When tension rises, does anyone try to lower it, and does the other let them?</text>
 <rect x="40" y="126" width="600" height="64" rx="8" fill="#f6f9f8" stroke="#e2e8e6" stroke-width="0.5"/>
-<text x="58" y="148" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">2. Complain, don't criticise</text>
-<text x="58" y="170" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">Count the sentences that start with &quot;you always&quot; or &quot;you never&quot;.</text>
+<text x="58" y="148" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">2. Complain, don't criticise</text>
+<text x="58" y="170" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">Count the sentences that start with &quot;you always&quot; or &quot;you never&quot;.</text>
 <rect x="40" y="198" width="600" height="64" rx="8" fill="#f6f9f8" stroke="#e2e8e6" stroke-width="0.5"/>
-<text x="58" y="220" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">3. Turn toward bids</text>
-<text x="58" y="242" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">When your partner says something that does not require an answer, what do you do?</text>
+<text x="58" y="220" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">3. Turn toward bids</text>
+<text x="58" y="242" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">When your partner says something that does not require an answer, what do you do?</text>
 <rect x="40" y="270" width="600" height="64" rx="8" fill="#f6f9f8" stroke="#e2e8e6" stroke-width="0.5"/>
-<text x="58" y="292" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">4. Notice flooding, then pause</text>
-<text x="58" y="314" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">Do you notice the moment you stop thinking clearly, and does anyone call a pause?</text>
+<text x="58" y="292" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">4. Notice flooding, then pause</text>
+<text x="58" y="314" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">Do you notice the moment you stop thinking clearly, and does anyone call a pause?</text>
 <rect x="40" y="342" width="600" height="64" rx="8" fill="#f6f9f8" stroke="#e2e8e6" stroke-width="0.5"/>
-<text x="58" y="364" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">5. State their view first</text>
-<text x="58" y="386" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">Try stating your partner's view before your own. Do they agree it is fair?</text>
+<text x="58" y="364" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="500" fill="#1f5a4c" text-anchor="start" dominant-baseline="central">5. State their view first</text>
+<text x="58" y="386" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">Try stating your partner's view before your own. Do they agree it is fair?</text>
 </svg>

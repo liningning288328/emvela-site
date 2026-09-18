@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="100%" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300" role="img">
 <title>Compatibility versus interaction during disagreement</title>
 <desc>Longitudinal research finds how partners interact during friction predicts outcomes better than similarity.</desc>
 <defs>
@@ -8,16 +8,16 @@
   </marker>
 </defs>
 
-<text x="40" y="28" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">What predicts relationship outcomes</text>
-<text x="40" y="52" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">Research finds measures of similarity predict weakly; measures of interaction during disagreement predict substantially better.</text>
-<text x="130" y="100" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="middle" dominant-baseline="central">Compatibility</text>
+<text x="40" y="28" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="start" dominant-baseline="central">What predicts relationship outcomes</text>
+<text x="40" y="52" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="400" fill="#4a5c5a" text-anchor="start" dominant-baseline="central">Research finds measures of similarity predict weakly; measures of interaction during disagreement predict substantially better.</text>
+<text x="130" y="100" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="middle" dominant-baseline="central">Compatibility</text>
 <rect x="70" y="112" width="120" height="80" rx="6" fill="#e2e8e6"/>
-<text x="130" y="152" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="400" fill="#7d8f8c" text-anchor="middle" dominant-baseline="central">low predictive
+<text x="130" y="152" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="400" fill="#7d8f8c" text-anchor="middle" dominant-baseline="central">low predictive
 power</text>
-<text x="490" y="100" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="middle" dominant-baseline="central">How you disagree</text>
+<text x="490" y="100" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="14" font-weight="500" fill="#1c2b2a" text-anchor="middle" dominant-baseline="central">How you disagree</text>
 <rect x="430" y="112" width="120" height="160" rx="6" fill="#2f7d6b"/>
-<text x="490" y="192" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">high predictive
+<text x="490" y="192" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">high predictive
 power</text>
 <line x1="200" y1="152" x2="420" y2="152" stroke="#4a5c5a" stroke-width="1" marker-end="url(#arrow)"/>
-<text x="310" y="142" font-family="-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif" font-size="12" font-weight="500" fill="#1f5a4c" text-anchor="middle" dominant-baseline="central">matters more</text>
+<text x="310" y="142" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' font-size="12" font-weight="500" fill="#1f5a4c" text-anchor="middle" dominant-baseline="central">matters more</text>
 </svg>
